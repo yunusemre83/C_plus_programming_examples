@@ -7,7 +7,7 @@ using namespace std;
 
 
 int main(){
-	/*
+	
 	ListNode<int> AA(23);
 	ListNode<int>* BB = new ListNode<int>(45);
 	
@@ -69,8 +69,7 @@ int main(){
 	LL4->print_list();
 
 	cout << sizeof(unsigned) << endl;
-	*/
-	/*
+	
 	Stack_Single<int> * sstack = new Stack_Single<int>(6);
 	for (int i = 0; i < 7; i++){
 		sstack->push(i);
@@ -91,7 +90,7 @@ int main(){
 	cout << temp << endl;
 	slstack->pull(temp);
 	cout << temp << endl;
-	*/
+	
 
 	Queue<int> * squeue = new Queue<int>(6);
 	for (int i = 0; i < 7; i++){
